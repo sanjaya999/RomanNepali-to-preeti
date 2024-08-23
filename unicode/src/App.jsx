@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import Use from './Use';
 
 const App = () => {
   const [preetiInput, setPreetiInput] = useState('');
@@ -559,6 +560,8 @@ var vowels_middle = { // vowels at the middle of word or with consonant
           
         />
       </div>
+
+        <Use />
       </div>
 
     
